@@ -1,0 +1,33 @@
+linux commands:
+1.present working directory:pwd
+2.list of files and folders:ls
+3.clear the entire screen:clear
+4.change directory:cd(move current working directory to other)
+5.create folder or directory:mkdir pythonprogramming1
+6.create a files under pythonprogramming1
+     .touch(create a file on the specific directory) touch filename.txt
+     .nano(nano is a editor used to override the data into file nano data.txt)
+     .gedit
+     .cat(used to read file data) cat filename.txt
+     .echo(used to write the data to a file) echo 'enter data'>filename.txt
+     .>>write multiple lines on to the folder echo 'enter data'>>filename.txt
+git commands:
+
+1.git version:gives the version of the git whichone is installed(*git hub->central place of all projects
+                                                                
+ *git->accecing projects into local devicesthat is called git)
+2.git init->initialize a new project
+3.ls -a:shows hidden files and folders present in the directory
+4.configure the git
+   4.1 git config user.name 'your name'
+   4.2 git config user.email 'your email'
+5.git status:find out the file is tracked or untracked
+6.git add:add file to the repository
+7.git commit -m 'update something filename.txt'
+8.git log:this is used to check versions1,version2...
+9.git remote add local foldername server url link
+10.git remote show it will show the folder
+11.git remote -v it will show url 
+12.pull data-git pull gitam-vizag-python
+13.push data-git push -u gitam-vizag-python
+    git push --set-upstream gitam-vizag-python master
